@@ -2,7 +2,7 @@
 
 My personal macOS development environment. Built around [Ghostty](https://ghostty.org), [Neovim](https://neovim.io) (LazyVim-based), [tmux](https://github.com/tmux/tmux), and [Starship](https://starship.rs).
 
-![preview](https://img.shields.io/badge/theme-Tokyo%20Night-7aa2f7?style=flat-square&logo=neovim)
+![preview](https://img.shields.io/badge/theme-Everforest%20Dark%20Hard-a7c080?style=flat-square&logo=neovim)
 ![platform](https://img.shields.io/badge/platform-macOS-000000?style=flat-square&logo=apple)
 
 ---
@@ -11,7 +11,7 @@ My personal macOS development environment. Built around [Ghostty](https://ghostt
 
 | Tool | Config | Description |
 |------|--------|-------------|
-| **Ghostty** | `.config/ghostty/config` | Terminal — Solarized Dark Patched theme, PlemolJP Console NF font |
+| **Ghostty** | `.config/ghostty/config` | Terminal — Everforest Dark Hard theme, JetBrains Mono font |
 | **Starship** | `.config/starship/starship.toml` | Prompt — official Tokyo Night powerline preset + username |
 | **Tmux** | `.config/tmux/` | Multiplexer — Solarized theme, modular config |
 | **Neovim** | `.config/nvim/` | Editor — LazyVim + solarized-osaka, Telescope, Copilot |
@@ -30,7 +30,7 @@ brew install neovim tmux starship fzf ghq eza lazygit git-delta
 Install the font (required for Starship powerline arrows and Neovim icons):
 
 ```sh
-brew install --cask font-plemol-jp-nf
+brew install --cask font-jetbrains-mono
 ```
 
 ---

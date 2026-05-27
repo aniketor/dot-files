@@ -1,12 +1,14 @@
-theme = "Solarized Dark Patched"
+theme = "Everforest Dark Hard"
 
-background-opacity = 0.9
+background-opacity = 1.0
 
 background-blur-radius = 20
 
 background = #031219
 
-font-family = "PlemolJP Console NF"
+font-family = "JetBrains Mono"
+
+font-size = 15
 
 cursor-style = block
 
